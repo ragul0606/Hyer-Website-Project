@@ -195,9 +195,14 @@ header {
 .card-3 {
   display: flex;
   flex-direction: row;
+  border-top: 1px solid rgb(94, 94, 94);
 }
 
 .left-card-3 {
+  width: 50%;
+}
+
+.right-card-3 {
   width: 50%;
 }
 
@@ -207,16 +212,56 @@ header {
 }
 
 .card-3-list {
+  display: flex;
+  flex-direction: column;
   margin-left: 3rem;
-  position: relative;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  gap: 3.5rem;
+}
+
+li {
+  display: flex;
   align-items: center;
-  justify-content: center;
 }
 
 .card-3-heading {
-  font-weight: 500;
-  font-size: 2rem;
+  font-weight: 400;
+  font-size: 2.25rem;
   margin-left: 3rem;
+  margin-top: 1rem;
+  color: rgb(94, 94, 94);
+}
+
+.card-3-description {
+  margin-left: 1.5rem;
+  margin-right: 3rem;
+  line-height: 1.5;
+  font-weight: 500;
+  font-size: 1.25rem;
+  color: rgb(94, 94, 94);
+}
+
+.btn-demo {
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  margin-top: 2.75rem;
+  margin-left: 3.25rem;
+  margin-right: 3rem;
+  border-radius: 1.75rem;
+  background-color: transparent;
+  color: rgb(94, 94, 94);
+  border: 1px solid rgb(94, 94, 94);
+  font-weight: 500;
+  font-size: 1.5rem;
+}
+
+.btn-demo:hover {
+  background-color: rgb(1, 1, 190);
+  color: white;
+  border: 1px solid rgb(1, 1, 190);
 }
 
 @media screen and (min-width: 576px) {
