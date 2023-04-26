@@ -326,6 +326,11 @@ li {
   font-size: 1.5rem;
 }
 
+.btn-learn:hover {
+  background-color: transparent;
+  color: white;
+}
+
 .card-4-img-support {
   background-color: transparent;
 }
